@@ -1,0 +1,114 @@
+{
+    "name": "PHQ-9（患者健康问卷）量表",
+    "description": "PHQ-9（Patient Health Questionnaire-9，病人健康问卷）是一个简便、有效的抑郁障碍自评量表。它在抑郁症诊断的辅助和症状严重程度评估方面，均具有良好的信度和效度。",
+    "answerTips": "在过去的2周里，你在生活中出现以下症状的频率是多少？",
+    "resultTips": "如果你的得分在：<ul><li>0-4分：你没有抑郁，继续加强自我保健，保持好心情</li><li>5-9分：你可能有轻度的抑郁，建议寻求专业的心理帮助</li><li>10-14分：可能有中度抑郁，最好寻求专业的心理帮助</li><li>15-19分：可能有中重度抑郁，建议咨询心理医生或精神科医生</li><li>20-27分：可能有重度抑郁，最好咨询心理医生或精神科医生</li></ul>",
+    "references": [
+        "http://ssc.sanyau.edu.cn/?article/1089.html",
+        "https://dxy.com/article/46430",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1495268/",
+        "https://lczl.med.wanfangdata.com.cn/Home/DocumentDetail?id=sjjbyjsws201306009"
+    ],
+    "options": [
+        {
+            "name": "没有",
+            "score": 0
+        },
+        {
+            "name": "有几天",
+            "score": 1
+        },
+        {
+            "name": "一半以上的时间",
+            "score": 2
+        },
+        {
+            "name": "几乎天天",
+            "score": 3
+        }
+    ],
+    "questions": [
+        {
+            "groupId": 1,
+            "content": "做事时提不起劲或没有兴趣"
+        },
+        {
+            "groupId": 1,
+            "content": "感到心情低落, 沮丧或绝望"
+        },
+        {
+            "groupId": 1,
+            "content": "入睡困难、睡不安或睡得过多"
+        },
+        {
+            "groupId": 1,
+            "content": "感觉疲倦或没有活力"
+        },
+        {
+            "groupId": 1,
+            "content": "食欲不振或吃太多"
+        },
+        {
+            "groupId": 1,
+            "content": "觉得自己很糟或觉得自己很失败，或让自己、家人失望"
+        },
+        {
+            "groupId": 1,
+            "content": "很难集中注意力，比如读报纸或者看电视"
+        },
+        {
+            "groupId": 1,
+            "content": "行动或说话速度慢到已经被别人察觉？或刚好相反——变得比平时更加烦躁或坐立不安，动来动去"
+        },
+        {
+            "groupId": 1,
+            "content": "觉得如果自己死了反而会更好，或者有想伤害自己的想法"
+        }
+    ],
+    "scoring": {
+        "criteria": [
+            {
+                "groupId": 1,
+                "method": "plus"
+            }
+        ],
+        "ranges": [
+            {
+                "groupId": 1,
+                "name": "抑郁",
+                "ranges": [
+                    {
+                        "name": "没有抑郁",
+                        "color": "green",
+                        "min": 0,
+                        "max": 4
+                    },
+                    {
+                        "name": "轻度抑郁",
+                        "color": "yellow",
+                        "min": 5,
+                        "max": 9
+                    },
+                    {
+                        "name": "中度抑郁",
+                        "color": "orange",
+                        "min": 10,
+                        "max": 14
+                    },
+                    {
+                        "name": "中重度抑郁",
+                        "color": "orange",
+                        "min": 15,
+                        "max": 19
+                    },
+                    {
+                        "name": "重度抑郁",
+                        "color": "red",
+                        "min": 20,
+                        "max": 27
+                    }
+                ]
+            }
+        ]
+    }
+}
