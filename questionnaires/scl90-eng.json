@@ -438,19 +438,19 @@
                 "name": "Somatization",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 0.89,
+                        "min": 0,
                         "max": 1.85
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 1.86,
                         "max": 2.32
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.33,
                         "max": 5.00
@@ -462,19 +462,19 @@
                 "name": "Obsessive-compulsive",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 1.04,
+                        "min": 0,
                         "max": 2.20
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 2.21,
                         "max": 2.77
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.78,
                         "max": 5.00
@@ -486,19 +486,19 @@
                 "name": "Interpersonal sensibility",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 1.04,
+                        "min": 0,
                         "max": 2.26
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 2.27,
                         "max": 2.86
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.87,
                         "max": 5.00
@@ -510,19 +510,19 @@
                 "name": "Depression",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 0.91,
+                        "min": 0,
                         "max": 2.09
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 2.10,
                         "max": 2.67
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.68,
                         "max": 5.00
@@ -534,19 +534,19 @@
                 "name": "Anxiety",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 0.96,
+                        "min": 0,
                         "max": 1.82
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 1.83,
                         "max": 2.24
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.25,
                         "max": 5.00
@@ -558,19 +558,19 @@
                 "name": "Anger-hostility",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 0.91,
+                        "min": 0,
                         "max": 2.01
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 2.02,
                         "max": 2.55
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.56,
                         "max": 5.00
@@ -582,19 +582,19 @@
                 "name": "Phobic-anxiety",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 0.82,
+                        "min": 0,
                         "max": 1.64
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 1.65,
                         "max": 2.04
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.05,
                         "max": 5.00
@@ -606,19 +606,19 @@
                 "name": "Paranoid ideation",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 0.86,
+                        "min": 0,
                         "max": 2.00
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 2.01,
                         "max": 2.56
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.57,
                         "max": 5.00
@@ -630,19 +630,19 @@
                 "name": "Psychoticism",
                 "ranges": [
                     {
-                        "name": "正常范围",
+                        "name": "Normal",
                         "color": "green",
-                        "min": 0.87,
+                        "min": 0,
                         "max": 1.71
                     },
                     {
-                        "name": "中度",
+                        "name": "Moderate",
                         "color": "yellow",
                         "min": 1.72,
                         "max": 2.12
                     },
                     {
-                        "name": "严重",
+                        "name": "Severe",
                         "color": "red",
                         "min": 2.13,
                         "max": 5.00
@@ -655,7 +655,7 @@
                 "ranges": [
                     {
                         "name": "No comment",
-                        "color": "",
+                        "color": "green",
                         "min": 0,
                         "max": 10
                     }
