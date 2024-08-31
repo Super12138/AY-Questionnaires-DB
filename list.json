@@ -1,8 +1,8 @@
 {
-    "version": "2024-08-29",
+    "version": "2024-08-31",
     "categories": [
         {
-            "name": "一般心理健康与行为问题量表",
+            "name": "全部",
             "questionnaires": [
                 {
                     "name": "SCL-90（症状自评量表）量表",
@@ -21,12 +21,7 @@
                     "value": "srq20",
                     "lang": "zh",
                     "new": true
-                }
-            ]
-        },
-        {
-            "name": "焦虑",
-            "questionnaires": [
+                },
                 {
                     "name": "GAD-7（广泛性焦虑）量表",
                     "value": "gad7",
@@ -44,12 +39,7 @@
                     "value": "dass21",
                     "lang": "zh",
                     "new": true
-                }
-            ]
-        },
-        {
-            "name": "抑郁",
-            "questionnaires": [
+                },
                 {
                     "name": "PHQ-9（患者健康问卷）量表",
                     "value": "phq9",

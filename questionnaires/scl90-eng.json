@@ -8,23 +8,23 @@
     "options": [
         {
             "name": "Not at all",
-            "score": 0
-        },
-        {
-            "name": "A little bit",
             "score": 1
         },
         {
-            "name": "Moderately",
+            "name": "A little bit",
             "score": 2
         },
         {
-            "name": "Quite a bit",
+            "name": "Moderately",
             "score": 3
         },
         {
-            "name": "Extremely",
+            "name": "Quite a bit",
             "score": 4
+        },
+        {
+            "name": "Extremely",
+            "score": 5
         }
     ],
     "questions": [
