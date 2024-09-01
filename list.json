@@ -1,56 +1,62 @@
 {
-    "version": "2024-08-31",
+    "version": "2024-09-01",
     "categories": [
         {
             "name": "全部",
             "questionnaires": [
                 {
-                    "name": "SCL-90（症状自评量表）量表",
+                    "name": "SCL-90（90 项症状清单）",
                     "value": "scl90",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "SCL-90（90 项症状清单，中学生常模）",
+                    "value": "scl90-middle",
                     "lang": "zh",
                     "new": true
                 },
                 {
-                    "name": "SCL-90（Symptom Checklist-90）量表",
+                    "name": "SCL-90（Symptom Checklist-90）",
                     "value": "scl90-eng",
                     "lang": "en",
-                    "new": true
+                    "new": false
                 },
                 {
                     "name": "SRQ-20（心理健康自评量表）量表",
                     "value": "srq20",
                     "lang": "zh",
-                    "new": true
+                    "new": false
                 },
                 {
                     "name": "GAD-7（广泛性焦虑）量表",
                     "value": "gad7",
                     "lang": "zh",
-                    "new": true
+                    "new": false
                 },
                 {
                     "name": "GAD-7 (Generalized Anxiety Disorder-7) 量表",
                     "value": "gad7-eng",
                     "lang": "en",
-                    "new": true
+                    "new": false
                 },
                 {
                     "name": "DASS-21（抑郁焦虑压力量表）量表",
                     "value": "dass21",
                     "lang": "zh",
-                    "new": true
+                    "new": false
                 },
                 {
                     "name": "PHQ-9（患者健康问卷）量表",
                     "value": "phq9",
                     "lang": "zh",
-                    "new": true
+                    "new": false
                 },
                 {
                     "name": "PHQ-9 (Patient Health Questionnaire-9) 量表",
                     "value": "phq9-eng",
                     "lang": "en",
-                    "new": true
+                    "new": false
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
-    "name": "SCL-90（Symptom Checklist-90）量表",
-    "description": "SCL-90（Symptom Checklist-90）是一个症状自评量表。它用来衡量门诊病人自觉症状的严重程度。它一共有9个因子，覆盖面较广，可以准确地反映被试的自觉症状和问题及其严重程度和变化。",
+    "name": "SCL-90（Symptom Checklist-90）",
+    "description": "SCL-90（Symptom Checklist-90）是一个有 90 项的症状自评量表。它用来衡量门诊病人自觉症状的严重程度。它一共有9个因子，覆盖面较广，可以准确地反映被试的自觉症状和问题及其严重程度和变化。",
     "answerTips": "Please read each one carefully. After you have done so, select one of the numbered descriptors that best describes HOW MUCH THAT PROBLEM HAS BOTHERED OR DISTRESSED YOU DURING THE PAST WEEK, INCLUDING TODAY.",
     "references": [
         "https://arc.psych.wisc.edu/self-report/symptom-checklist-90-scl90/"
@@ -655,7 +655,6 @@
                 "ranges": [
                     {
                         "name": "No comment",
-                        "color": "green",
                         "min": 0,
                         "max": 10
                     }
