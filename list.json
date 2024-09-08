@@ -1,5 +1,5 @@
 {
-    "version": "2024-09-01",
+    "version": "2024-09-08",
     "categories": [
         {
             "name": "全部",
@@ -14,7 +14,7 @@
                     "name": "SCL-90（90 项症状清单，中学生常模）",
                     "value": "scl90-middle",
                     "lang": "zh",
-                    "new": true
+                    "new": false
                 },
                 {
                     "name": "SCL-90（Symptom Checklist-90）",
@@ -23,31 +23,31 @@
                     "new": false
                 },
                 {
-                    "name": "SRQ-20（心理健康自评量表）量表",
+                    "name": "SRQ-20（心理健康自评量表）",
                     "value": "srq20",
                     "lang": "zh",
                     "new": false
                 },
                 {
-                    "name": "GAD-7（广泛性焦虑）量表",
+                    "name": "GAD-7（广泛性焦虑）",
                     "value": "gad7",
                     "lang": "zh",
                     "new": false
                 },
                 {
-                    "name": "GAD-7 (Generalized Anxiety Disorder-7) 量表",
+                    "name": "GAD-7（Generalized Anxiety Disorder-7）",
                     "value": "gad7-eng",
                     "lang": "en",
                     "new": false
                 },
                 {
-                    "name": "DASS-21（抑郁焦虑压力量表）量表",
+                    "name": "DASS-21（抑郁焦虑压力量表）",
                     "value": "dass21",
                     "lang": "zh",
                     "new": false
                 },
                 {
-                    "name": "PHQ-9（患者健康问卷）量表",
+                    "name": "PHQ-9（患者健康问卷）",
                     "value": "phq9",
                     "lang": "zh",
                     "new": false
@@ -57,6 +57,12 @@
                     "value": "phq9-eng",
                     "lang": "en",
                     "new": false
+                },
+                {
+                    "name": "BSI-18（简明症状量表-18）",
+                    "value": "bsi18",
+                    "lang": "zh",
+                    "new": true
                 }
             ]
         }
