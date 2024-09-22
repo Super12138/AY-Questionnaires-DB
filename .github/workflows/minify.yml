@@ -24,14 +24,13 @@ jobs:
       - name: Install tool
         run: npm i -g jsonzip
 
-      - name: Minify json
-        run: jsonzip ${{ github.workspace }}
-
-      - name: Commit and push changes
+      - name: Minify and push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git checkout minify
+          git merge main
+          jsonzip ${{ github.workspace }}
           git add .
           git commit -m "Minify JSON"
           git push --force --set-upstream origin minify
