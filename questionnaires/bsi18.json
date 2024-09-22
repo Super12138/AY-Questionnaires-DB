@@ -102,55 +102,42 @@
             "content": "感到害怕"
         }
     ],
-    "scoring": {
-        "criteria": [
-            {
-                "groupId": 1,
-                "method": "plus"
-            },
-            {
-                "groupId": 2,
-                "method": "plus"
-            },
-            {
-                "groupId": 3,
-                "method": "plus"
-            }
-        ],
-        "ranges": [
-            {
-                "groupId": 1,
-                "name": "躯体化症状",
-                "ranges": [
-                    {
-                        "name": "",
-                        "min": 0,
-                        "max": 30
-                    }
-                ]
-            },
-            {
-                "groupId": 2,
-                "name": "抑郁",
-                "ranges": [
-                    {
-                        "name": "",
-                        "min": 0,
-                        "max": 30
-                    }
-                ]
-            },
-            {
-                "groupId": 3,
-                "name": "焦虑",
-                "ranges": [
-                    {
-                        "name": "",
-                        "min": 0,
-                        "max": 30
-                    }
-                ]
-            }
-        ]
-    }
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "躯体化症状",
+            "method": "plus",
+            "ranges": [
+                {
+                    "name": "",
+                    "min": 0,
+                    "max": 30
+                }
+            ]
+        },
+        {
+            "groupId": 2,
+            "name": "抑郁",
+            "method": "plus",
+            "ranges": [
+                {
+                    "name": "",
+                    "min": 0,
+                    "max": 30
+                }
+            ]
+        },
+        {
+            "groupId": 3,
+            "name": "焦虑",
+            "method": "plus",
+            "ranges": [
+                {
+                    "name": "",
+                    "min": 0,
+                    "max": 30
+                }
+            ]
+        }
+    ]
 }

@@ -1,0 +1,34 @@
+name: Minify JSON
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  minify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.7
+
+      - name: Setup Node
+        uses: actions/setup-node@v4.0.4
+        with:
+          node-version: 20
+
+      - name: Install tool
+        run: npm i -g jsonzip
+
+      - name: Minify json
+        run: jsonzip ${{ github.workspace }}
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git checkout minify
+          git add .
+          git commit -m "Minify JSON"
+          git push --force --set-upstream origin minify

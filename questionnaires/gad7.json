@@ -55,44 +55,37 @@
             "content": "担心有不详的事情发生"
         }
     ],
-    "scoring": {
-        "criteria": [
-            {
-                "groupId": 1,
-                "method": "plus"
-            }
-        ],
-        "ranges": [
-            {
-                "groupId": 1,
-                "name": "焦虑",
-                "ranges": [
-                    {
-                        "name": "没有焦虑",
-                        "color": "green",
-                        "min": 0,
-                        "max": 4
-                    },
-                    {
-                        "name": "轻度焦虑",
-                        "color": "yellow",
-                        "min": 5,
-                        "max": 9
-                    },
-                    {
-                        "name": "中度焦虑",
-                        "color": "orange",
-                        "min": 10,
-                        "max": 14
-                    },
-                    {
-                        "name": "严重焦虑",
-                        "color": "red",
-                        "min": 15,
-                        "max": 21
-                    }
-                ]
-            }
-        ]
-    }
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "焦虑",
+            "method": "plus",
+            "ranges": [
+                {
+                    "name": "没有焦虑",
+                    "color": "green",
+                    "min": 0,
+                    "max": 4
+                },
+                {
+                    "name": "轻度焦虑",
+                    "color": "yellow",
+                    "min": 5,
+                    "max": 9
+                },
+                {
+                    "name": "中度焦虑",
+                    "color": "orange",
+                    "min": 10,
+                    "max": 14
+                },
+                {
+                    "name": "严重焦虑",
+                    "color": "red",
+                    "min": 15,
+                    "max": 21
+                }
+            ]
+        }
+    ]
 }

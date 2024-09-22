@@ -113,130 +113,117 @@
             "content": "我感到生命毫无意义"
         }
     ],
-    "scoring": {
-        "criteria": [
-            {
-                "groupId": 1,
-                "method": "multiply, 2"
-            },
-            {
-                "groupId": 2,
-                "method": "multiply, 2"
-            },
-            {
-                "groupId": 3,
-                "method": "multiply, 2"
-            }
-        ],
-        "ranges": [
-            {
-                "groupId": 1,
-                "name": "抑郁",
-                "ranges": [
-                    {
-                        "name": "正常",
-                        "color": "green",
-                        "min": 0,
-                        "max": 9
-                    },
-                    {
-                        "name": "轻度",
-                        "color": "yellow",
-                        "min": 10,
-                        "max": 13
-                    },
-                    {
-                        "name": "中度",
-                        "color": "orange",
-                        "min": 14,
-                        "max": 20
-                    },
-                    {
-                        "name": "重度",
-                        "color": "orange",
-                        "min": 21,
-                        "max": 27
-                    },
-                    {
-                        "name": "非常严重",
-                        "color": "red",
-                        "min": 28,
-                        "max": 42
-                    }
-                ]
-            },
-            {
-                "groupId": 2,
-                "name": "焦虑",
-                "ranges": [
-                    {
-                        "name": "正常",
-                        "color": "green",
-                        "min": 0,
-                        "max": 7
-                    },
-                    {
-                        "name": "轻度",
-                        "color": "yellow",
-                        "min": 8,
-                        "max": 9
-                    },
-                    {
-                        "name": "中度",
-                        "color": "orange",
-                        "min": 10,
-                        "max": 14
-                    },
-                    {
-                        "name": "重度",
-                        "color": "orange",
-                        "min": 15,
-                        "max": 19
-                    },
-                    {
-                        "name": "非常严重",
-                        "color": "red",
-                        "min": 20,
-                        "max": 42
-                    }
-                ]
-            },
-            {
-                "groupId": 3,
-                "name": "压力",
-                "ranges": [
-                    {
-                        "name": "正常",
-                        "color": "green",
-                        "min": 0,
-                        "max": 14
-                    },
-                    {
-                        "name": "轻度",
-                        "color": "yellow",
-                        "min": 15,
-                        "max": 18
-                    },
-                    {
-                        "name": "中度",
-                        "color": "orange",
-                        "min": 19,
-                        "max": 25
-                    },
-                    {
-                        "name": "重度",
-                        "color": "orange",
-                        "min": 26,
-                        "max": 33
-                    },
-                    {
-                        "name": "非常严重",
-                        "color": "red",
-                        "min": 34,
-                        "max": 42
-                    }
-                ]
-            }
-        ]
-    }
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "抑郁",
+            "method": "multiply, 2",
+            "ranges": [
+                {
+                    "name": "正常",
+                    "color": "green",
+                    "min": 0,
+                    "max": 9
+                },
+                {
+                    "name": "轻度",
+                    "color": "yellow",
+                    "min": 10,
+                    "max": 13
+                },
+                {
+                    "name": "中度",
+                    "color": "orange",
+                    "min": 14,
+                    "max": 20
+                },
+                {
+                    "name": "重度",
+                    "color": "orange",
+                    "min": 21,
+                    "max": 27
+                },
+                {
+                    "name": "非常严重",
+                    "color": "red",
+                    "min": 28,
+                    "max": 42
+                }
+            ]
+        },
+        {
+            "groupId": 2,
+            "name": "焦虑",
+            "method": "multiply, 2",
+            "ranges": [
+                {
+                    "name": "正常",
+                    "color": "green",
+                    "min": 0,
+                    "max": 7
+                },
+                {
+                    "name": "轻度",
+                    "color": "yellow",
+                    "min": 8,
+                    "max": 9
+                },
+                {
+                    "name": "中度",
+                    "color": "orange",
+                    "min": 10,
+                    "max": 14
+                },
+                {
+                    "name": "重度",
+                    "color": "orange",
+                    "min": 15,
+                    "max": 19
+                },
+                {
+                    "name": "非常严重",
+                    "color": "red",
+                    "min": 20,
+                    "max": 42
+                }
+            ]
+        },
+        {
+            "groupId": 3,
+            "name": "压力",
+            "method": "multiply, 2",
+            "ranges": [
+                {
+                    "name": "正常",
+                    "color": "green",
+                    "min": 0,
+                    "max": 14
+                },
+                {
+                    "name": "轻度",
+                    "color": "yellow",
+                    "min": 15,
+                    "max": 18
+                },
+                {
+                    "name": "中度",
+                    "color": "orange",
+                    "min": 19,
+                    "max": 25
+                },
+                {
+                    "name": "重度",
+                    "color": "orange",
+                    "min": 26,
+                    "max": 33
+                },
+                {
+                    "name": "非常严重",
+                    "color": "red",
+                    "min": 34,
+                    "max": 42
+                }
+            ]
+        }
+    ]
 }

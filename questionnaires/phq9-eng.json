@@ -64,50 +64,43 @@
             "content": "Thoughts that you would be better off dead or of hurting yourself in some way"
         }
     ],
-    "scoring": {
-        "criteria": [
-            {
-                "groupId": 1,
-                "method": "plus"
-            }
-        ],
-        "ranges": [
-            {
-                "groupId": 1,
-                "name": "Depression",
-                "ranges": [
-                    {
-                        "name": "No depression",
-                        "color": "green",
-                        "min": 0,
-                        "max": 4
-                    },
-                    {
-                        "name": "Mild depression",
-                        "color": "yellow",
-                        "min": 5,
-                        "max": 9
-                    },
-                    {
-                        "name": "Moderate depression",
-                        "color": "orange",
-                        "min": 10,
-                        "max": 14
-                    },
-                    {
-                        "name": "Moderate severe depression",
-                        "color": "orange",
-                        "min": 15,
-                        "max": 19
-                    },
-                    {
-                        "name": "Severe depression",
-                        "color": "red",
-                        "min": 20,
-                        "max": 27
-                    }
-                ]
-            }
-        ]
-    }
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "Depression",
+            "method": "plus",
+            "ranges": [
+                {
+                    "name": "No depression",
+                    "color": "green",
+                    "min": 0,
+                    "max": 4
+                },
+                {
+                    "name": "Mild depression",
+                    "color": "yellow",
+                    "min": 5,
+                    "max": 9
+                },
+                {
+                    "name": "Moderate depression",
+                    "color": "orange",
+                    "min": 10,
+                    "max": 14
+                },
+                {
+                    "name": "Moderate severe depression",
+                    "color": "orange",
+                    "min": 15,
+                    "max": 19
+                },
+                {
+                    "name": "Severe depression",
+                    "color": "red",
+                    "min": 20,
+                    "max": 27
+                }
+            ]
+        }
+    ]
 }

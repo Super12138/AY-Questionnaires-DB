@@ -54,44 +54,37 @@
             "content": "Feeling afraid as if something awful might happen"
         }
     ],
-    "scoring": {
-        "criteria": [
-            {
-                "groupId": 1,
-                "method": "plus"
-            }
-        ],
-        "ranges": [
-            {
-                "groupId": 1,
-                "name": "Anxiety",
-                "ranges": [
-                    {
-                        "name": "No anxiety",
-                        "color": "green",
-                        "min": 0,
-                        "max": 4
-                    },
-                    {
-                        "name": "Mild anxiety",
-                        "color": "yellow",
-                        "min": 5,
-                        "max": 9
-                    },
-                    {
-                        "name": "Moderate anxiety",
-                        "color": "orange",
-                        "min": 10,
-                        "max": 14
-                    },
-                    {
-                        "name": "Severe anxiety",
-                        "color": "red",
-                        "min": 15,
-                        "max": 21
-                    }
-                ]
-            }
-        ]
-    }
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "Anxiety",
+            "method": "plus",
+            "ranges": [
+                {
+                    "name": "No anxiety",
+                    "color": "green",
+                    "min": 0,
+                    "max": 4
+                },
+                {
+                    "name": "Mild anxiety",
+                    "color": "yellow",
+                    "min": 5,
+                    "max": 9
+                },
+                {
+                    "name": "Moderate anxiety",
+                    "color": "orange",
+                    "min": 10,
+                    "max": 14
+                },
+                {
+                    "name": "Severe anxiety",
+                    "color": "red",
+                    "min": 15,
+                    "max": 21
+                }
+            ]
+        }
+    ]
 }

@@ -389,277 +389,243 @@
             "content": "The idea that something is wrong with your mind"
         }
     ],
-    "scoring": {
-        "criteria": [
-            {
-                "groupId": 1,
-                "method": "average"
-            },
-            {
-                "groupId": 2,
-                "method": "average"
-            },
-            {
-                "groupId": 3,
-                "method": "average"
-            },
-            {
-                "groupId": 4,
-                "method": "average"
-            },
-            {
-                "groupId": 5,
-                "method": "average"
-            },
-            {
-                "groupId": 6,
-                "method": "average"
-            },
-            {
-                "groupId": 7,
-                "method": "average"
-            },
-            {
-                "groupId": 8,
-                "method": "average"
-            },
-            {
-                "groupId": 9,
-                "method": "average"
-            },
-            {
-                "groupId": 10,
-                "method": "average"
-            }
-        ],
-        "ranges": [
-            {
-                "groupId": 1,
-                "name": "Somatization",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 1.85
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 1.86,
-                        "max": 2.32
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.33,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 2,
-                "name": "Obsessive-compulsive",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.20
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 2.21,
-                        "max": 2.77
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.78,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 3,
-                "name": "Interpersonal sensibility",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.26
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 2.27,
-                        "max": 2.86
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.87,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 4,
-                "name": "Depression",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.09
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 2.10,
-                        "max": 2.67
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.68,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 5,
-                "name": "Anxiety",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 1.82
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 1.83,
-                        "max": 2.24
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.25,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 6,
-                "name": "Anger-hostility",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.01
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 2.02,
-                        "max": 2.55
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.56,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 7,
-                "name": "Phobic-anxiety",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 1.64
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 1.65,
-                        "max": 2.04
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.05,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 8,
-                "name": "Paranoid ideation",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.00
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 2.01,
-                        "max": 2.56
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.57,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 9,
-                "name": "Psychoticism",
-                "ranges": [
-                    {
-                        "name": "Normal",
-                        "color": "green",
-                        "min": 0,
-                        "max": 1.71
-                    },
-                    {
-                        "name": "Moderate",
-                        "color": "yellow",
-                        "min": 1.72,
-                        "max": 2.12
-                    },
-                    {
-                        "name": "Severe",
-                        "color": "red",
-                        "min": 2.13,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 10,
-                "name": "Additional items",
-                "ranges": [
-                    {
-                        "name": "No comment",
-                        "min": 0,
-                        "max": 10
-                    }
-                ]
-            }
-        ]
-    }
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "Somatization",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 1.85
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 1.86,
+                    "max": 2.32
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.33,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 2,
+            "name": "Obsessive-compulsive",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.20
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.21,
+                    "max": 2.77
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.78,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 3,
+            "name": "Interpersonal sensibility",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.26
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.27,
+                    "max": 2.86
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.87,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 4,
+            "name": "Depression",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.09
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.10,
+                    "max": 2.67
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.68,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 5,
+            "name": "Anxiety",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 1.82
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 1.83,
+                    "max": 2.24
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.25,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 6,
+            "name": "Anger-hostility",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.01
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.02,
+                    "max": 2.55
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.56,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 7,
+            "name": "Phobic-anxiety",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 1.64
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 1.65,
+                    "max": 2.04
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.05,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 8,
+            "name": "Paranoid ideation",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.00
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.01,
+                    "max": 2.56
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.57,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 9,
+            "name": "Psychoticism",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 1.71
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 1.72,
+                    "max": 2.12
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.13,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 10,
+            "name": "Additional items",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "No comment",
+                    "min": 0,
+                    "max": 10
+                }
+            ]
+        }
+    ]
 }

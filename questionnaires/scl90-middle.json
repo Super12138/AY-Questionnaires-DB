@@ -393,277 +393,243 @@
             "content": "感到自己的脑子有毛病"
         }
     ],
-    "scoring": {
-        "criteria": [
-            {
-                "groupId": 1,
-                "method": "average"
-            },
-            {
-                "groupId": 2,
-                "method": "average"
-            },
-            {
-                "groupId": 3,
-                "method": "average"
-            },
-            {
-                "groupId": 4,
-                "method": "average"
-            },
-            {
-                "groupId": 5,
-                "method": "average"
-            },
-            {
-                "groupId": 6,
-                "method": "average"
-            },
-            {
-                "groupId": 7,
-                "method": "average"
-            },
-            {
-                "groupId": 8,
-                "method": "average"
-            },
-            {
-                "groupId": 9,
-                "method": "average"
-            },
-            {
-                "groupId": 10,
-                "method": "average"
-            }
-        ],
-        "ranges": [
-            {
-                "groupId": 1,
-                "name": "躯体化",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.20
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.21,
-                        "max": 2.81
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 2.82,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 2,
-                "name": "强迫症状",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.20
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.82,
-                        "max": 3.53
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 3.54,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 3,
-                "name": "人际关系敏感",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.50
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.51,
-                        "max": 3.17
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 3.18,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 4,
-                "name": "抑郁",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.48
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.49,
-                        "max": 3.18
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 3.19,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 5,
-                "name": "焦虑",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.44
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.45,
-                        "max": 3.12
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 3.13,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 6,
-                "name": "敌对",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.55
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.56,
-                        "max": 3.28
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 3.29,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 7,
-                "name": "恐怖",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.14
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.15,
-                        "max": 2.74
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 2.75,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 8,
-                "name": "偏执",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.42
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.43,
-                        "max": 3.09
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 3.10,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 9,
-                "name": "精神病性",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 2.29
-                    },
-                    {
-                        "name": "中度",
-                        "color": "yellow",
-                        "min": 2.30,
-                        "max": 2.90
-                    },
-                    {
-                        "name": "严重",
-                        "color": "red",
-                        "min": 2.91,
-                        "max": 5.00
-                    }
-                ]
-            },
-            {
-                "groupId": 10,
-                "name": "附加项目",
-                "ranges": [
-                    {
-                        "name": "不做评价",
-                        "min": 0,
-                        "max": 10
-                    }
-                ]
-            }
-        ]
-    }
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "躯体化",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.20
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.21,
+                    "max": 2.81
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 2.82,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 2,
+            "name": "强迫症状",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.20
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.82,
+                    "max": 3.53
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 3.54,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 3,
+            "name": "人际关系敏感",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.50
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.51,
+                    "max": 3.17
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 3.18,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 4,
+            "name": "抑郁",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.48
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.49,
+                    "max": 3.18
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 3.19,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 5,
+            "name": "焦虑",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.44
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.45,
+                    "max": 3.12
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 3.13,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 6,
+            "name": "敌对",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.55
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.56,
+                    "max": 3.28
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 3.29,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 7,
+            "name": "恐怖",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.14
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.15,
+                    "max": 2.74
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 2.75,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 8,
+            "name": "偏执",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.42
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.43,
+                    "max": 3.09
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 3.10,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 9,
+            "name": "精神病性",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.29
+                },
+                {
+                    "name": "中度",
+                    "color": "yellow",
+                    "min": 2.30,
+                    "max": 2.90
+                },
+                {
+                    "name": "严重",
+                    "color": "red",
+                    "min": 2.91,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 10,
+            "name": "附加项目",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "不做评价",
+                    "min": 0,
+                    "max": 10
+                }
+            ]
+        }
+    ]
 }

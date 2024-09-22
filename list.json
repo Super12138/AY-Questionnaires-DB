@@ -1,5 +1,5 @@
 {
-    "version": "2024-09-08",
+    "version": "2024-09-22",
     "categories": [
         {
             "name": "全部",
@@ -61,6 +61,12 @@
                 {
                     "name": "BSI-18（简明症状量表-18）",
                     "value": "bsi18",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "SDS（抑郁自评量表）",
+                    "value": "sds",
                     "lang": "zh",
                     "new": true
                 }

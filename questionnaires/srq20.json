@@ -98,32 +98,25 @@
             "content": "您是否容易疲劳？"
         }
     ],
-    "scoring": {
-        "criteria": [
-            {
-                "groupId": 1,
-                "method": "plus"
-            }
-        ],
-        "ranges": [
-            {
-                "groupId": 1,
-                "name": "总分",
-                "ranges": [
-                    {
-                        "name": "正常范围",
-                        "color": "green",
-                        "min": 0,
-                        "max": 7
-                    },
-                    {
-                        "name": "可能存在情感痛苦",
-                        "color": "red",
-                        "min": 8,
-                        "max": 20
-                    }
-                ]
-            }
-        ]
-    }
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "总分",
+            "method": "plus",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 7
+                },
+                {
+                    "name": "可能存在情感痛苦",
+                    "color": "red",
+                    "min": 8,
+                    "max": 20
+                }
+            ]
+        }
+    ]
 }
