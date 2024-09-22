@@ -23,13 +23,13 @@
                     "new": false
                 },
                 {
-                    "name": "SRQ-20（心理健康自评量表）",
+                    "name": "SRQ-20（心理健康自评量表-20）",
                     "value": "srq20",
                     "lang": "zh",
                     "new": false
                 },
                 {
-                    "name": "GAD-7（广泛性焦虑）",
+                    "name": "GAD-7（广泛性焦虑-7）",
                     "value": "gad7",
                     "lang": "zh",
                     "new": false
@@ -41,19 +41,19 @@
                     "new": false
                 },
                 {
-                    "name": "DASS-21（抑郁焦虑压力量表）",
+                    "name": "DASS-21（抑郁焦虑压力量表-21）",
                     "value": "dass21",
                     "lang": "zh",
                     "new": false
                 },
                 {
-                    "name": "PHQ-9（患者健康问卷）",
+                    "name": "PHQ-9（患者健康问卷-9）",
                     "value": "phq9",
                     "lang": "zh",
                     "new": false
                 },
                 {
-                    "name": "PHQ-9 (Patient Health Questionnaire-9) 量表",
+                    "name": "PHQ-9 (Patient Health Questionnaire-9) ",
                     "value": "phq9-eng",
                     "lang": "en",
                     "new": false
