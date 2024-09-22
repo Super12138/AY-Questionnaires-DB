@@ -30,7 +30,7 @@ jobs:
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git checkout minify
           git merge main
-          jsonzip ${{ github.workspace }}
+          jsonzip
           git add .
           git commit -m "Minify JSON"
           git push origin minify
