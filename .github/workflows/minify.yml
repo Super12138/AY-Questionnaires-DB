@@ -33,4 +33,4 @@ jobs:
           jsonzip ${{ github.workspace }}
           git add .
           git commit -m "Minify JSON"
-          git push --force --set-upstream origin minify
+          git push origin minify
