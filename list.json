@@ -1,5 +1,5 @@
 {
-    "version": "2024-09-22",
+    "version": "2024-10-03",
     "categories": [
         {
             "name": "全部",
@@ -68,7 +68,7 @@
                     "name": "SDS（抑郁自评量表）",
                     "value": "sds",
                     "lang": "zh",
-                    "new": true
+                    "new": false
                 }
             ]
         }
