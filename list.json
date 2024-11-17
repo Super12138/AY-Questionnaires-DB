@@ -1,1 +1,83 @@
-{"version":"2024-11-14","categories":[{"name":"全部","questionnaires":[{"name":"SCL-90（90 项症状清单）","value":"scl90","lang":"zh","new":false},{"name":"SCL-90（90 项症状清单，中学生常模）","value":"scl90-middle","lang":"zh","new":false},{"name":"SCL-90（Symptom Checklist-90）","value":"scl90-eng","lang":"en","new":false},{"name":"SRQ-20（心理健康自评量表-20）","value":"srq20","lang":"zh","new":false},{"name":"GAD-7（广泛性焦虑-7）","value":"gad7","lang":"zh","new":false},{"name":"GAD-7（Generalized Anxiety Disorder-7）","value":"gad7-eng","lang":"en","new":false},{"name":"DASS-21（抑郁焦虑压力量表-21）","value":"dass21","lang":"zh","new":false},{"name":"PHQ-9（患者健康问卷-9）","value":"phq9","lang":"zh","new":false},{"name":"PHQ-9 (Patient Health Questionnaire-9) ","value":"phq9-eng","lang":"en","new":false},{"name":"BSI-18（简明症状量表-18）","value":"bsi18","lang":"zh","new":false},{"name":"SDS（抑郁自评量表）","value":"sds","lang":"zh","new":false}]}]}
+{
+    "$schema": "list-schema.json",
+    "version": "2024-11-14",
+    "categories": [
+        {
+            "name": "全部",
+            "questionnaires": [
+                {
+                    "name": "SCL-90（90 项症状清单）",
+                    "value": "scl90",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "SCL-90（90 项症状清单，中学生常模）",
+                    "value": "scl90-middle",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "SCL-90（Symptom Checklist-90）",
+                    "value": "scl90-eng",
+                    "lang": "en",
+                    "new": false
+                },
+                {
+                    "name": "SRQ-20（心理健康自评量表-20）",
+                    "value": "srq20",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "GAD-7（广泛性焦虑-7）",
+                    "value": "gad7",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "GAD-7（Generalized Anxiety Disorder-7）",
+                    "value": "gad7-eng",
+                    "lang": "en",
+                    "new": false
+                },
+                {
+                    "name": "DASS-21（抑郁焦虑压力量表-21）",
+                    "value": "dass21",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "PHQ-9（患者健康问卷-9）",
+                    "value": "phq9",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "PHQ-9 (Patient Health Questionnaire-9) ",
+                    "value": "phq9-eng",
+                    "lang": "en",
+                    "new": false
+                },
+                {
+                    "name": "BSI-18（简明症状量表-18）",
+                    "value": "bsi18",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "SDS（抑郁自评量表）",
+                    "value": "sds",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "SAS（焦虑自评量表）",
+                    "value": "sas",
+                    "lang": "zh",
+                    "new": false
+                }
+            ]
+        }
+    ]
+}
