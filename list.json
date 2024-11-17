@@ -75,7 +75,7 @@
                     "name": "SAS（焦虑自评量表）",
                     "value": "sas",
                     "lang": "zh",
-                    "new": false
+                    "new": true
                 }
             ]
         }
