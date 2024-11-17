@@ -1,4 +1,5 @@
 {
+    "$schema": "list-schema.json",
     "version": "2024-11-14",
     "categories": [
         {
@@ -67,6 +68,12 @@
                 {
                     "name": "SDS（抑郁自评量表）",
                     "value": "sds",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "SAS（焦虑自评量表）",
+                    "value": "sas",
                     "lang": "zh",
                     "new": false
                 }
