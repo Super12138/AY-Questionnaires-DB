@@ -1,4 +1,5 @@
 {
+    "$schema": "../questionnaire-schema.json",
     "name": "PHQ-9（患者健康问卷）量表",
     "description": "PHQ-9（Patient Health Questionnaire-9，病人健康问卷）是一个简便、有效的抑郁障碍自评量表。它在抑郁症诊断的辅助和症状严重程度评估方面，均具有良好的信度和效度。",
     "answerTips": "在过去的2周里，你在生活中出现以下症状的频率是多少？",

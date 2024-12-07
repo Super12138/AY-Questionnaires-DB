@@ -1,4 +1,5 @@
 {
+    "$schema": "../questionnaire-schema.json",
     "name": "DASS-21（抑郁焦虑压力量表）量表",
     "description": "DASS-21（Depression Anxiety and Stress Scale）量表是DASS-42的简化版本，可以同时测评抑郁、焦虑和压力的症状。经过多年检验，量表得到了完善，同时具有良好的信效度。",
     "answerTips": "请认真阅读题目，并结合自己最近1周的情况，选择最符合你的选项。每个选项没有对错之分，同时不要在任何一题上花费太多的时间。",

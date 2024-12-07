@@ -1,4 +1,5 @@
 {
+    "$schema": "../questionnaire-schema.json",
     "name": "BSI-18（简明症状量表-18）",
     "description": "BSI-18（Brief Symptom Inventory-18）是由 Derogatis (2001) 基于 SCL-90 量表和 BSI-51 修订而成的简版问卷。它可以测量躯体化、抑郁和焦虑3个方面的症状。相比 SCL-90 作答时间缩短，可以便捷的筛查临床和社区人群。",
     "answerTips": "在随后的题目中有一些关于你身心状况的描述，请根据最近1周内下述情况影响你的实际感觉，选择相应的选项。",
