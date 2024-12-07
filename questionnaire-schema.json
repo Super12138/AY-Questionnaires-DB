@@ -60,6 +60,10 @@
                     "content": {
                         "description": "题目内容",
                         "type": "string"
+                    },
+                    "reverse": {
+                        "description": "开启反向评分（即把量表要求的选项分值在本题反转，但不反转选项内容）",
+                        "type": "boolean"
                     }
                 },
                 "required": [
@@ -83,8 +87,14 @@
                         "type": "string"
                     },
                     "method": {
-                        "description": "分数计算方法",
-                        "type": "string"
+                        "description": "分数计算方法，目前支持计算总和、平均值、总和的倍数（分为乘和除，具体倍率写在 “,” 后面）",
+                        "type": "string",
+                        "enum": [
+                            "plus",
+                            "average",
+                            "multiply, ",
+                            "division, "
+                        ]
                     },
                     "ranges": {
                         "description": "分值范围",
