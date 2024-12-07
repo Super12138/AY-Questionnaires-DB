@@ -1,1 +1,123 @@
-{"name":"SRQ-20（心理健康自评量表）量表","description":"SRQ-20（Self Reporting Questionnaire-20）是一个心理健康的自评量表。它是由世界卫生组织发布的，用于评判心理状况专业工具。同时也被原卫生部的《灾难心理危机干预培训手册》所收录。","answerTips":"以下问题与某些痛苦有关，在过去30日内可能困扰您。如果您觉得问题适合您的情况，并在过去30日内存在，请选择“是”。如果问题不适合您的情况或在过去30日内不存在，请选择“否”。在回答问卷时请不要与任何人讨论。如果您不能确定该如何回答问题，请尽量给出您认为的最恰当的回答。","references":["https://iris.who.int/handle/10665/61113","https://cmhadb.cma-cmc.com.cn/know/v/articleDetail/20/25981.html"],"options":[{"name":"是","score":1},{"name":"否","score":0}],"questions":[{"groupId":1,"content":"您是否经常头痛？"},{"groupId":1,"content":"您是否食欲差？"},{"groupId":1,"content":"您是否睡眠差？"},{"groupId":1,"content":"您是否易受惊吓？"},{"groupId":1,"content":"您是否手抖？"},{"groupId":1,"content":"您是否感觉不安、紧张或担忧？"},{"groupId":1,"content":"您是否消化不良？"},{"groupId":1,"content":"您是否思维不清晰？"},{"groupId":1,"content":"您是否感觉不快乐？"},{"groupId":1,"content":"您是否比原来哭得多？"},{"groupId":1,"content":"您是否发现很难从日常活动中得到乐趣？"},{"groupId":1,"content":"您是否发现自己很难做决定？"},{"groupId":1,"content":"日常工作是否令您感到痛苦？"},{"groupId":1,"content":"您在生活中是否不能起到应起的作用？"},{"groupId":1,"content":"您是否丧失了对事物的兴趣？"},{"groupId":1,"content":"您是否感到自己是个无价值的人？"},{"groupId":1,"content":"您头脑中是否出现过结束自己生命的想法？"},{"groupId":1,"content":"您是否什么时候都感到累？"},{"groupId":1,"content":"您是否感到胃都不适？"},{"groupId":1,"content":"您是否容易疲劳？"}],"scoring":[{"groupId":1,"name":"总分","method":"plus","ranges":[{"name":"正常范围","color":"green","min":0,"max":7},{"name":"可能存在情感痛苦","color":"red","min":8,"max":20}]}]}
+{
+    "$schema": "../questionnaire-schema.json",
+    "name": "SRQ-20（心理健康自评量表）量表",
+    "description": "SRQ-20（Self Reporting Questionnaire-20）是一个心理健康的自评量表。它是由世界卫生组织发布的，用于评判心理状况专业工具。同时也被原卫生部的《灾难心理危机干预培训手册》所收录。",
+    "answerTips": "以下问题与某些痛苦有关，在过去30日内可能困扰您。如果您觉得问题适合您的情况，并在过去30日内存在，请选择“是”。如果问题不适合您的情况或在过去30日内不存在，请选择“否”。在回答问卷时请不要与任何人讨论。如果您不能确定该如何回答问题，请尽量给出您认为的最恰当的回答。",
+    "references": [
+        "https://iris.who.int/handle/10665/61113",
+        "https://cmhadb.cma-cmc.com.cn/know/v/articleDetail/20/25981.html"
+    ],
+    "options": [
+        {
+            "name": "是",
+            "score": 1
+        },
+        {
+            "name": "否",
+            "score": 0
+        }
+    ],
+    "questions": [
+        {
+            "groupId": 1,
+            "content": "您是否经常头痛？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否食欲差？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否睡眠差？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否易受惊吓？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否手抖？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否感觉不安、紧张或担忧？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否消化不良？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否思维不清晰？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否感觉不快乐？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否比原来哭得多？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否发现很难从日常活动中得到乐趣？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否发现自己很难做决定？"
+        },
+        {
+            "groupId": 1,
+            "content": "日常工作是否令您感到痛苦？"
+        },
+        {
+            "groupId": 1,
+            "content": "您在生活中是否不能起到应起的作用？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否丧失了对事物的兴趣？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否感到自己是个无价值的人？"
+        },
+        {
+            "groupId": 1,
+            "content": "您头脑中是否出现过结束自己生命的想法？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否什么时候都感到累？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否感到胃都不适？"
+        },
+        {
+            "groupId": 1,
+            "content": "您是否容易疲劳？"
+        }
+    ],
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "总分",
+            "method": "plus",
+            "ranges": [
+                {
+                    "name": "正常范围",
+                    "color": "green",
+                    "min": 0,
+                    "max": 7
+                },
+                {
+                    "name": "可能存在情感痛苦",
+                    "color": "red",
+                    "min": 8,
+                    "max": 20
+                }
+            ]
+        }
+    ]
+}
