@@ -1,6 +1,6 @@
 {
     "$schema": "list-schema.json",
-    "version": "2024-11-14",
+    "version": "2024-12-07",
     "categories": [
         {
             "name": "全部",
@@ -74,6 +74,12 @@
                 {
                     "name": "SAS（焦虑自评量表）",
                     "value": "sas",
+                    "lang": "zh",
+                    "new": false
+                },
+                {
+                    "name": "HAD（医院焦虑抑郁量表）",
+                    "value": "had",
                     "lang": "zh",
                     "new": true
                 }
