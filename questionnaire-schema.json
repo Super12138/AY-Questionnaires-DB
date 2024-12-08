@@ -53,6 +53,10 @@
             "items": {
                 "type": "object",
                 "properties": {
+                    "id": {
+                        "description": "题目 Id（可选，仅用于定位）",
+                        "type": "number"
+                    },
                     "groupId": {
                         "description": "题目组 Id",
                         "type": "number"
@@ -63,7 +67,8 @@
                     },
                     "reverse": {
                         "description": "开启反向评分（即把量表要求的选项分值在本题反转，但不反转选项内容）",
-                        "type": "boolean"
+                        "type": "boolean",
+                        "default": true
                     }
                 },
                 "required": [
