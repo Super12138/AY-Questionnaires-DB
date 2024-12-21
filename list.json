@@ -1,6 +1,6 @@
 {
     "$schema": "list-schema.json",
-    "version": "2024-12-07",
+    "version": "2024-12-21",
     "categories": [
         {
             "name": "全部",
@@ -78,10 +78,10 @@
                     "new": false
                 },
                 {
-                    "name": "HAD（医院焦虑抑郁量表）",
-                    "value": "had",
+                    "name": "HADS（医院焦虑抑郁量表）",
+                    "value": "hads",
                     "lang": "zh",
-                    "new": true
+                    "new": false
                 }
             ]
         }
