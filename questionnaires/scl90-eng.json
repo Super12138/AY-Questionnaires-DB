@@ -1,1 +1,632 @@
-{"$schema":"../questionnaire-schema.json","name":"SCL-90（Symptom Checklist-90）","description":"SCL-90（Symptom Checklist-90）是一个有 90 项的症状自评量表。它用来衡量门诊病人自觉症状的严重程度。它一共有9个因子，覆盖面较广，可以准确地反映被试的自觉症状和问题及其严重程度和变化。","answerTips":"Please read each one carefully. After you have done so, select one of the numbered descriptors that best describes HOW MUCH THAT PROBLEM HAS BOTHERED OR DISTRESSED YOU DURING THE PAST WEEK, INCLUDING TODAY.","references":["https://arc.psych.wisc.edu/self-report/symptom-checklist-90-scl90/"],"options":[{"name":"Not at all","score":1},{"name":"A little bit","score":2},{"name":"Moderately","score":3},{"name":"Quite a bit","score":4},{"name":"Extremely","score":5}],"questions":[{"groupId":1,"content":"Headaches"},{"groupId":5,"content":"Nervousness or shakiness inside"},{"groupId":2,"content":"Unwanted thoughts, words, or ideas that won't leave your mind"},{"groupId":1,"content":"Faintness or dizziness"},{"groupId":4,"content":"Loss of sexual interest or pleasure"},{"groupId":3,"content":"Feeling critical of others"},{"groupId":9,"content":"The idea that someone else can control your thoughts"},{"groupId":8,"content":"Feeling others are to blame for most of your troubles"},{"groupId":2,"content":"Trouble remembering things"},{"groupId":2,"content":"Worried about sloppiness or carelessness "},{"groupId":6,"content":"Feeling easily annoyed or irritated"},{"groupId":1,"content":"Pains in heart or chest"},{"groupId":7,"content":"Feeling afraid in open spaces or on the streets"},{"groupId":4,"content":"Feeling low in energy or slowed down"},{"groupId":4,"content":"Thoughts of ending your life"},{"groupId":9,"content":"Hearing voices that other people do not hear"},{"groupId":5,"content":"Trembling"},{"groupId":8,"content":"Feeling that most people cannot be trusted"},{"groupId":10,"content":"Poor appetite"},{"groupId":4,"content":"Crying easily"},{"groupId":3,"content":"Feeling shy or uneasy with the opposite sex"},{"groupId":4,"content":"Feeling of being trapped or caught"},{"groupId":5,"content":"Suddenly scared for no reason"},{"groupId":6,"content":"Temper outbursts that you could not control"},{"groupId":7,"content":"Feeling afraid to go out of your house alone"},{"groupId":4,"content":"Blaming yourself for things"},{"groupId":1,"content":"Pains in lower back"},{"groupId":2,"content":"Feeling blocked in getting things done"},{"groupId":4,"content":"Feeling lonely"},{"groupId":4,"content":"Feeling blue"},{"groupId":4,"content":"Worrying too much about things"},{"groupId":4,"content":"Feeling no interest in things"},{"groupId":5,"content":"Feeling fearful"},{"groupId":3,"content":"Your feelings being easily hurt"},{"groupId":9,"content":"Other people being aware of your private thoughts"},{"groupId":3,"content":"Feeling others do not understand you or are unsympathetic"},{"groupId":3,"content":"Feeling that people are unfriendly or dislike you"},{"groupId":2,"content":"Having to do things very slowly to insure correctness"},{"groupId":5,"content":"Heart pounding or racing"},{"groupId":1,"content":"Nausea or upset stomach"},{"groupId":3,"content":"Feeling inferior to others"},{"groupId":1,"content":"Soreness of your muscles"},{"groupId":8,"content":"Feeling that you are watched or talked about by others"},{"groupId":10,"content":"Trouble falling asleep"},{"groupId":2,"content":"Having to check and multiply-check what you do"},{"groupId":2,"content":"Difficulty making decisions"},{"groupId":7,"content":"Feeling afraid to travel on buses, subways, trains"},{"groupId":1,"content":"Trouble getting your breath"},{"groupId":1,"content":"Hot or cold spells"},{"groupId":7,"content":"Having to avoid certain things, places, or activities because they frighten you"},{"groupId":2,"content":"Your mind going blank"},{"groupId":1,"content":"Numbness or tingling in parts of your body"},{"groupId":1,"content":"A lump in your throat"},{"groupId":4,"content":"Feeling hopeless about the future"},{"groupId":2,"content":"Trouble concentrating"},{"groupId":1,"content":"Feeling weak in parts of your body"},{"groupId":5,"content":"Feeling tense or keyed up"},{"groupId":1,"content":"Heavy feelings in your arms or legs"},{"groupId":10,"content":"Thoughts of death or dying"},{"groupId":10,"content":"Overeating"},{"groupId":3,"content":"Feeling uneasy when people are watching or talking about you"},{"groupId":9,"content":"Having thoughts that are not your own"},{"groupId":6,"content":"Having urges to beat, injure, or harm someone"},{"groupId":10,"content":"Awakening in the early morning"},{"groupId":2,"content":"Having to repeat the same actions such as touching, counting, washing"},{"groupId":10,"content":"Sleep that is restless or disturbed"},{"groupId":6,"content":"Having urges to break or smash things"},{"groupId":8,"content":"Having ideas or beliefs that others do not share"},{"groupId":3,"content":"Feeling very self-conscious with others"},{"groupId":7,"content":"Feeling uneasy in crowds, such as shopping or at a movie"},{"groupId":4,"content":"Feeling everything is an effort"},{"groupId":5,"content":"Spells of terror or panic"},{"groupId":3,"content":"Feeling uncomfortable about eating or drinking in public"},{"groupId":6,"content":"Getting into frequent arguments"},{"groupId":7,"content":"Feeling nervous when you are left alone"},{"groupId":8,"content":"Others not giving you proper credit for your achievements"},{"groupId":9,"content":"Feeling lonely even when you are with people"},{"groupId":5,"content":"Feeling so restless you couldn't sit still"},{"groupId":4,"content":"Feelings of worthlessness"},{"groupId":5,"content":"Feeling that familiar things are strange or unreal"},{"groupId":6,"content":"Shouting or throwing things"},{"groupId":7,"content":"Feeling afraid you will faint in public"},{"groupId":8,"content":"Feeling that people will take advantage of you if you let them"},{"groupId":9,"content":"Having thoughts about sex that bother you a lot"},{"groupId":9,"content":"The idea that you should be punished for your sins"},{"groupId":5,"content":"Feeling pushed to get things done"},{"groupId":9,"content":"The idea that something serious is wrong with your body"},{"groupId":9,"content":"Never feeling close to another person"},{"groupId":10,"content":"Feelings of guilt"},{"groupId":9,"content":"The idea that something is wrong with your mind"}],"scoring":[{"groupId":1,"name":"Somatization","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":1.85},{"name":"Moderate","color":"yellow","min":1.86,"max":2.32},{"name":"Severe","color":"red","min":2.33,"max":5}]},{"groupId":2,"name":"Obsessive-compulsive","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":2.2},{"name":"Moderate","color":"yellow","min":2.21,"max":2.77},{"name":"Severe","color":"red","min":2.78,"max":5}]},{"groupId":3,"name":"Interpersonal sensibility","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":2.26},{"name":"Moderate","color":"yellow","min":2.27,"max":2.86},{"name":"Severe","color":"red","min":2.87,"max":5}]},{"groupId":4,"name":"Depression","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":2.09},{"name":"Moderate","color":"yellow","min":2.1,"max":2.67},{"name":"Severe","color":"red","min":2.68,"max":5}]},{"groupId":5,"name":"Anxiety","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":1.82},{"name":"Moderate","color":"yellow","min":1.83,"max":2.24},{"name":"Severe","color":"red","min":2.25,"max":5}]},{"groupId":6,"name":"Anger-hostility","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":2.01},{"name":"Moderate","color":"yellow","min":2.02,"max":2.55},{"name":"Severe","color":"red","min":2.56,"max":5}]},{"groupId":7,"name":"Phobic-anxiety","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":1.64},{"name":"Moderate","color":"yellow","min":1.65,"max":2.04},{"name":"Severe","color":"red","min":2.05,"max":5}]},{"groupId":8,"name":"Paranoid ideation","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":2},{"name":"Moderate","color":"yellow","min":2.01,"max":2.56},{"name":"Severe","color":"red","min":2.57,"max":5}]},{"groupId":9,"name":"Psychoticism","method":"average","ranges":[{"name":"Normal","color":"green","min":0,"max":1.71},{"name":"Moderate","color":"yellow","min":1.72,"max":2.12},{"name":"Severe","color":"red","min":2.13,"max":5}]},{"groupId":10,"name":"Additional items","method":"average","ranges":[{"name":"No comment","min":0,"max":10}]}]}
+{
+    "$schema": "../questionnaire-schema.json",
+    "name": "SCL-90（Symptom Checklist-90）",
+    "description": "SCL-90（Symptom Checklist-90）是一个有 90 项的症状自评量表。它一共有9个因子，覆盖面较广，可以准确地反映被试的自觉症状和问题及其严重程度和变化。（提示：该量表是精神症状（心理问题）筛查量表，而不是精神疾病诊断量表。其划界分是研究者提出的参考标准，即被试者超过该标准也并不意味着肯定有精神障碍或心理问题，仅提示其需要接受专业人员的进一步检查。）",
+    "answerTips": "Please read each one carefully. After you have done so, select one of the numbered descriptors that best describes HOW MUCH THAT PROBLEM HAS BOTHERED OR DISTRESSED YOU DURING THE PAST WEEK, INCLUDING TODAY.",
+    "references": [
+        "https://arc.psych.wisc.edu/self-report/symptom-checklist-90-scl90/"
+    ],
+    "options": [
+        {
+            "name": "Not at all",
+            "score": 1
+        },
+        {
+            "name": "A little bit",
+            "score": 2
+        },
+        {
+            "name": "Moderately",
+            "score": 3
+        },
+        {
+            "name": "Quite a bit",
+            "score": 4
+        },
+        {
+            "name": "Extremely",
+            "score": 5
+        }
+    ],
+    "questions": [
+        {
+            "groupId": 1,
+            "content": "Headaches"
+        },
+        {
+            "groupId": 5,
+            "content": "Nervousness or shakiness inside"
+        },
+        {
+            "groupId": 2,
+            "content": "Unwanted thoughts, words, or ideas that won't leave your mind"
+        },
+        {
+            "groupId": 1,
+            "content": "Faintness or dizziness"
+        },
+        {
+            "groupId": 4,
+            "content": "Loss of sexual interest or pleasure"
+        },
+        {
+            "groupId": 3,
+            "content": "Feeling critical of others"
+        },
+        {
+            "groupId": 9,
+            "content": "The idea that someone else can control your thoughts"
+        },
+        {
+            "groupId": 8,
+            "content": "Feeling others are to blame for most of your troubles"
+        },
+        {
+            "groupId": 2,
+            "content": "Trouble remembering things"
+        },
+        {
+            "groupId": 2,
+            "content": "Worried about sloppiness or carelessness "
+        },
+        {
+            "groupId": 6,
+            "content": "Feeling easily annoyed or irritated"
+        },
+        {
+            "groupId": 1,
+            "content": "Pains in heart or chest"
+        },
+        {
+            "groupId": 7,
+            "content": "Feeling afraid in open spaces or on the streets"
+        },
+        {
+            "groupId": 4,
+            "content": "Feeling low in energy or slowed down"
+        },
+        {
+            "groupId": 4,
+            "content": "Thoughts of ending your life"
+        },
+        {
+            "groupId": 9,
+            "content": "Hearing voices that other people do not hear"
+        },
+        {
+            "groupId": 5,
+            "content": "Trembling"
+        },
+        {
+            "groupId": 8,
+            "content": "Feeling that most people cannot be trusted"
+        },
+        {
+            "groupId": 10,
+            "content": "Poor appetite"
+        },
+        {
+            "groupId": 4,
+            "content": "Crying easily"
+        },
+        {
+            "groupId": 3,
+            "content": "Feeling shy or uneasy with the opposite sex"
+        },
+        {
+            "groupId": 4,
+            "content": "Feeling of being trapped or caught"
+        },
+        {
+            "groupId": 5,
+            "content": "Suddenly scared for no reason"
+        },
+        {
+            "groupId": 6,
+            "content": "Temper outbursts that you could not control"
+        },
+        {
+            "groupId": 7,
+            "content": "Feeling afraid to go out of your house alone"
+        },
+        {
+            "groupId": 4,
+            "content": "Blaming yourself for things"
+        },
+        {
+            "groupId": 1,
+            "content": "Pains in lower back"
+        },
+        {
+            "groupId": 2,
+            "content": "Feeling blocked in getting things done"
+        },
+        {
+            "groupId": 4,
+            "content": "Feeling lonely"
+        },
+        {
+            "groupId": 4,
+            "content": "Feeling blue"
+        },
+        {
+            "groupId": 4,
+            "content": "Worrying too much about things"
+        },
+        {
+            "groupId": 4,
+            "content": "Feeling no interest in things"
+        },
+        {
+            "groupId": 5,
+            "content": "Feeling fearful"
+        },
+        {
+            "groupId": 3,
+            "content": "Your feelings being easily hurt"
+        },
+        {
+            "groupId": 9,
+            "content": "Other people being aware of your private thoughts"
+        },
+        {
+            "groupId": 3,
+            "content": "Feeling others do not understand you or are unsympathetic"
+        },
+        {
+            "groupId": 3,
+            "content": "Feeling that people are unfriendly or dislike you"
+        },
+        {
+            "groupId": 2,
+            "content": "Having to do things very slowly to insure correctness"
+        },
+        {
+            "groupId": 5,
+            "content": "Heart pounding or racing"
+        },
+        {
+            "groupId": 1,
+            "content": "Nausea or upset stomach"
+        },
+        {
+            "groupId": 3,
+            "content": "Feeling inferior to others"
+        },
+        {
+            "groupId": 1,
+            "content": "Soreness of your muscles"
+        },
+        {
+            "groupId": 8,
+            "content": "Feeling that you are watched or talked about by others"
+        },
+        {
+            "groupId": 10,
+            "content": "Trouble falling asleep"
+        },
+        {
+            "groupId": 2,
+            "content": "Having to check and multiply-check what you do"
+        },
+        {
+            "groupId": 2,
+            "content": "Difficulty making decisions"
+        },
+        {
+            "groupId": 7,
+            "content": "Feeling afraid to travel on buses, subways, trains"
+        },
+        {
+            "groupId": 1,
+            "content": "Trouble getting your breath"
+        },
+        {
+            "groupId": 1,
+            "content": "Hot or cold spells"
+        },
+        {
+            "groupId": 7,
+            "content": "Having to avoid certain things, places, or activities because they frighten you"
+        },
+        {
+            "groupId": 2,
+            "content": "Your mind going blank"
+        },
+        {
+            "groupId": 1,
+            "content": "Numbness or tingling in parts of your body"
+        },
+        {
+            "groupId": 1,
+            "content": "A lump in your throat"
+        },
+        {
+            "groupId": 4,
+            "content": "Feeling hopeless about the future"
+        },
+        {
+            "groupId": 2,
+            "content": "Trouble concentrating"
+        },
+        {
+            "groupId": 1,
+            "content": "Feeling weak in parts of your body"
+        },
+        {
+            "groupId": 5,
+            "content": "Feeling tense or keyed up"
+        },
+        {
+            "groupId": 1,
+            "content": "Heavy feelings in your arms or legs"
+        },
+        {
+            "groupId": 10,
+            "content": "Thoughts of death or dying"
+        },
+        {
+            "groupId": 10,
+            "content": "Overeating"
+        },
+        {
+            "groupId": 3,
+            "content": "Feeling uneasy when people are watching or talking about you"
+        },
+        {
+            "groupId": 9,
+            "content": "Having thoughts that are not your own"
+        },
+        {
+            "groupId": 6,
+            "content": "Having urges to beat, injure, or harm someone"
+        },
+        {
+            "groupId": 10,
+            "content": "Awakening in the early morning"
+        },
+        {
+            "groupId": 2,
+            "content": "Having to repeat the same actions such as touching, counting, washing"
+        },
+        {
+            "groupId": 10,
+            "content": "Sleep that is restless or disturbed"
+        },
+        {
+            "groupId": 6,
+            "content": "Having urges to break or smash things"
+        },
+        {
+            "groupId": 8,
+            "content": "Having ideas or beliefs that others do not share"
+        },
+        {
+            "groupId": 3,
+            "content": "Feeling very self-conscious with others"
+        },
+        {
+            "groupId": 7,
+            "content": "Feeling uneasy in crowds, such as shopping or at a movie"
+        },
+        {
+            "groupId": 4,
+            "content": "Feeling everything is an effort"
+        },
+        {
+            "groupId": 5,
+            "content": "Spells of terror or panic"
+        },
+        {
+            "groupId": 3,
+            "content": "Feeling uncomfortable about eating or drinking in public"
+        },
+        {
+            "groupId": 6,
+            "content": "Getting into frequent arguments"
+        },
+        {
+            "groupId": 7,
+            "content": "Feeling nervous when you are left alone"
+        },
+        {
+            "groupId": 8,
+            "content": "Others not giving you proper credit for your achievements"
+        },
+        {
+            "groupId": 9,
+            "content": "Feeling lonely even when you are with people"
+        },
+        {
+            "groupId": 5,
+            "content": "Feeling so restless you couldn't sit still"
+        },
+        {
+            "groupId": 4,
+            "content": "Feelings of worthlessness"
+        },
+        {
+            "groupId": 5,
+            "content": "Feeling that familiar things are strange or unreal"
+        },
+        {
+            "groupId": 6,
+            "content": "Shouting or throwing things"
+        },
+        {
+            "groupId": 7,
+            "content": "Feeling afraid you will faint in public"
+        },
+        {
+            "groupId": 8,
+            "content": "Feeling that people will take advantage of you if you let them"
+        },
+        {
+            "groupId": 9,
+            "content": "Having thoughts about sex that bother you a lot"
+        },
+        {
+            "groupId": 9,
+            "content": "The idea that you should be punished for your sins"
+        },
+        {
+            "groupId": 5,
+            "content": "Feeling pushed to get things done"
+        },
+        {
+            "groupId": 9,
+            "content": "The idea that something serious is wrong with your body"
+        },
+        {
+            "groupId": 9,
+            "content": "Never feeling close to another person"
+        },
+        {
+            "groupId": 10,
+            "content": "Feelings of guilt"
+        },
+        {
+            "groupId": 9,
+            "content": "The idea that something is wrong with your mind"
+        }
+    ],
+    "scoring": [
+        {
+            "groupId": 1,
+            "name": "Somatization",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 1.85
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 1.86,
+                    "max": 2.32
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.33,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 2,
+            "name": "Obsessive-compulsive",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.20
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.21,
+                    "max": 2.77
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.78,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 3,
+            "name": "Interpersonal sensibility",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.26
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.27,
+                    "max": 2.86
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.87,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 4,
+            "name": "Depression",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.09
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.10,
+                    "max": 2.67
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.68,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 5,
+            "name": "Anxiety",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 1.82
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 1.83,
+                    "max": 2.24
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.25,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 6,
+            "name": "Anger-hostility",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.01
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.02,
+                    "max": 2.55
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.56,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 7,
+            "name": "Phobic-anxiety",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 1.64
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 1.65,
+                    "max": 2.04
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.05,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 8,
+            "name": "Paranoid ideation",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 2.00
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 2.01,
+                    "max": 2.56
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.57,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 9,
+            "name": "Psychoticism",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "Normal",
+                    "color": "green",
+                    "min": 0,
+                    "max": 1.71
+                },
+                {
+                    "name": "Moderate",
+                    "color": "yellow",
+                    "min": 1.72,
+                    "max": 2.12
+                },
+                {
+                    "name": "Severe",
+                    "color": "red",
+                    "min": 2.13,
+                    "max": 5.00
+                }
+            ]
+        },
+        {
+            "groupId": 10,
+            "name": "Additional items",
+            "method": "average",
+            "ranges": [
+                {
+                    "name": "No comment",
+                    "min": 0,
+                    "max": 10
+                }
+            ]
+        }
+    ]
+}
